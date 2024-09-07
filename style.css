@@ -1,0 +1,218 @@
+html { 
+     scroll-behavior: smooth; 
+} 
+
+  *{
+     margin: 0; 
+     padding:0;  
+     box-sizing:border-box; 
+     font-family:'poppins',sans-serif; 
+     text-decoration: none; 
+     list-style: none;
+} 
+.header{ 
+     position: fixed; 
+     top:0; 
+     left:0; 
+     width:100%; 
+     padding: 35px 12%; 
+    background-color: white;  
+    color: black;
+     display: flex; 
+     justify-content: space-between; 
+     align-items: center; 
+   
+ } 
+.logo-content{ 
+     display: flex;
+}
+.logo-content span{ 
+     padding-top: 20px; 
+     font-size: 25px; 
+     font-weight: 500;  
+     padding-left: 7px;
+}
+.navbar{  
+     width: auto;
+     justify-content: space-between; 
+     padding-top: 22px; 
+     font-size: 25px; 
+     word-spacing: 10px; 
+    
+} 
+.signin{ 
+     padding-top: 22px;  
+     width: 120px;
+     font-size: 25px;  
+     background-color: black; 
+     color: white;  
+     text-align: center; 
+     border-radius: 10%; 
+    
+}  
+.signin:hover{ 
+     background-color: orangered;  
+     color: white; 
+     border: 5px solid black;
+} 
+.navbar a:hover, 
+.navbar a.active{ 
+    color: orangered; 
+    border-bottom: 3px solid orangered;
+}  
+ 
+.home{  
+     width: 100%; 
+     min-height: 75vh; 
+     gap: 7em; 
+     padding: 40px 12% 0;
+     background-color: white; 
+     color: black; 
+    align-items: center;   
+    display: flex; 
+    
+} 
+.home-content{    
+   padding-top: 30px;
+} 
+.home-content img{ 
+     height:400px ; 
+     width: 500px; 
+     border-radius: 10%;    
+} 
+.home-content2 h4{ 
+     font-size: 62px; 
+     color: black; 
+     font-weight: 600; 
+     justify-content: center; 
+     text-align: center ;
+     padding-top: 15px; 
+     padding-left: 25px;
+} 
+.home-content2 p{ 
+     font-size: 20px; 
+     font-weight: 200 ; 
+     text-align: center;
+     padding-top: 20px; 
+     padding-bottom: 20px;
+} 
+span{ 
+     color: blue;
+} 
+.home-content2 button{   
+     font-size: 20px;  
+     background-color: black;  
+     color: white; 
+     height: auto; 
+     width: 150px; 
+}  
+.home-content2{ 
+     text-align: center;    
+} 
+.home-content2 button:hover{ 
+     background-color: orangered;  
+     color: white; 
+     border: 3px solid orangered;
+}  
+.Aboutus{  
+     width: 100%; 
+     min-height: 80vh; 
+     gap: 7em; 
+     padding: 40px 12% 0;
+     background-color: whitesmoke; 
+     color: black; 
+    align-items: center;   
+    display: flex; 
+} 
+.aboutus-content p{ 
+     font-size: 25px; 
+     font-weight: 400; 
+     text-align: left;   
+     padding-top: 20px; 
+     padding-bottom: 20px;
+} 
+.aboutus-content h5{ 
+     font-size: 30px; 
+     font-weight: 600; 
+     text-align: left;
+} 
+.services{ 
+     width: 100%; 
+     min-height: 90vh; 
+     gap: 7em; 
+     padding: 40px 12% 0; 
+     background-color: wheat; 
+     color: black; 
+     align-items: center;   
+    display: flex; 
+} 
+.service-content h1{ 
+     color: black; 
+     font-size: 42px; 
+     font-weight: 600; 
+} 
+.service-content li{ 
+     padding-top: 30px; 
+     font-size: 30px; 
+     font-weight: 300; 
+     align-items: center;
+} 
+.connect{ 
+     width: 100%; 
+     min-height: 100vh; 
+     gap: 7em; 
+     padding: 90px 10% 0; 
+     background-color: whitesmoke; 
+     color: black;  
+      text-align: center;  
+      padding-top: 14%;
+}
+.connect-content p{ 
+     padding-top: 10px; 
+     font-size: 30px; 
+     font-weight: 600; 
+     padding-bottom: 30px;
+} 
+.connect-content button{ 
+     padding: 25px; 
+     background-color: black; 
+     color: white; 
+     align-items: center; 
+     font-size: 22px;
+} 
+.connect-content button:hover{ 
+     background-color: orangered; 
+     border: 5px solid black;
+} 
+.footer{ 
+     width: 100%; 
+     min-height: 50vh; 
+     gap: 7em; 
+     padding: 40px 10% 0; 
+     background-color: black; 
+     color: white; 
+      display: flex;
+} 
+.footer1 li{ 
+     text-align: left;  
+     font-size: 25px; 
+     padding-top: 10px;    
+} 
+.footer2{ 
+     text-align: center; 
+     font-size:25px ;  
+     font-weight: 400; 
+     padding-left: 30px ;
+     padding-top: 10px;
+} 
+.footer3 h1{ 
+     font-size: 25px; 
+     padding-top: 10px;  
+     padding-left: 120px; 
+     color: grey;
+} 
+.footer p{ 
+     font-size: 25px; 
+     padding-top: 10px; 
+     padding-left: 120px; 
+}
